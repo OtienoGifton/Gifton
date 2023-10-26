@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    user-select: none;
+    background-color: black;
+} 
+
+/*The top bar of the body*/
+.top-bar{
+    background-image: linear-gradient(to left,black,black,grey,black,black);
+    align-items: center;
+    height:60px;
+    width: 100%;
+    display: flex;
+    gap: 8%;
+}
+.top-bar h2{
+    color: orangered;
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 1%;
+}
+.top-bar p{
+    color: magenta;
+    font-size: 30px;
+}
+.top-bar p:hover{
+    border-bottom: 3px solid magenta;
+    cursor:grab;
+}
+#theme{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 10%;
+    font-weight: 500;
+    outline:1px solid black ;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.top-bar button{
+    width: 7%;
+    background-color: black;
+    border: 1px solid black;
+    height: 35px;
+    color: blueviolet;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+/*The home page of the body*/
+.home{
+    background-image: linear-gradient(to right,black,black,black,magenta);
+    height: 1000px;
+    width: 100%;
+     display: flex;
+    align-items: center;
+   
+}
+.home div{
+    background-color:black;
+    height: 500px;
+    text-align: center;
+}
+.me{
+   width: 45%;
+   margin-left: 5%;
+   color: whitesmoke;
+}
+.personal{
+    width: 40%;
+    margin-left: 5%;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+ }
+ .me h4{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(19, 91%, 50%);
+    font-style: italic;
+ }
+ .me p{
+    color: #832f10;
+    font-size: 30px;
+    font-weight: 100;
+ }
+ .personal div{
+     width: 35%;
+     height: 350px;
+     background-image: linear-gradient(to top,mediumvioletred,black,mediumvioletred,black);
+     margin-left: 10%;
+     border-radius: 25px;
+     color:white;
+     text-align: center;
+ }
+ .personal div:hover{
+     width: 35%;
+     height: 350px;
+     background-image: linear-gradient(to top,black,mediumvioletred,black,mediumvioletred);
+     margin-left: 10%;
+     border-radius: 25px;
+     transition: background-image 1s ease;
+     color:white;
+ }
+ .skills p{
+    cursor: grab;
+    color:white;
+    font-size: 30px;
+    line-height: 19px;
+ }
+ .skills p:hover{
+    cursor: grab;
+    color:white;
+    font-size: 30px;
+    line-height: 19px;
+ }
+ .work p:hover{
+    cursor: grab;
+    color:white;
+    font-size: 17px;
+ }
+ .skills h3{
+    color: azure;
+    font-size: 40px;
+ }
+ .work p{
+    cursor: grab;
+    color:white;
+    font-size: 17px;
+ }
+ .work h3{
+    color: azure;
+    font-size: 40px;
+ }
+ .skills h3:hover{
+    color:hsl(73, 92%, 46%);
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: hsl(120, 93%, 47%);
+ }
+ .work h3:hover{
+    color:#b1ee0a;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #4df002;
+ }
+
+ /*The about page of the html body*/
+ .about-page{
+    height: 900px;
+    width:100%;
+    background-image: linear-gradient(to left,black,black,black,black,magenta);
+    color: tomato;
+    display: flex;
+    align-items: center; 
+    border-bottom: 3px dotted magenta;
+ }
+ .circle{
+    height:400px ; 
+    width: 400px;
+    background-color:#242124;
+    border-radius: 50%;
+    margin-left: 7%;
+ }
+ .describe{
+    background-color:black; 
+    width: 40%;
+    height: 700px;
+    margin-left: 27%;
+    border-radius: 25px;
+    text-align: center;
+    transform: skew(25deg);
+ }
+ .describe h1{
+   color: magenta;
+   font-size: 70px;
+   font-weight: 900;
+   margin-top: 140px;
+   font-style: italic;
+ }
+ .describe h4{
+   color: magenta;
+   font-size: 30px;
+   font-weight: 100;
+   letter-spacing: 1px;
+ }
+
+
+ /*The projects page of the html body*/
+ .projects{
+    height:1000px;
+ }
+ .projects-folder{
+   height: 500px;
+   width: 100%; 
+   background-color:#242124; 
+   display: flex;
+   align-items: center;
+   background-image: linear-gradient(to top,black,magenta,black,black,black,magenta,black);
+   }
+   .projects-folder div{
+    width: 20%;
+    height: 400px;
+    background-color:black;
+    margin-left:4% ;
+    border-radius:15px ;
+   text-align: center;
+    color: orangered;
+    position: relative;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+   }
+   .projects-folder div:hover{
+    width: 21.25%;
+    height: 410px;
+    background-color:#1B1B1B;
+    margin-left:3% ;
+    border-radius:17px ;
+    transition: 1s;
+    color: magenta;
+    transition: 1s;
+   }
+   .icon{
+      fill:aqua;
+      height: 75px;
+      width: 40%;
+      margin-top: 20px;
+   }
+   .more{
+   background-color:#1B1B1B;
+   height:35px;
+   outline: 1px solid #1B1B1B;
+   border: 1px solid #1B1B1B;
+   border-radius: 10px;
+   position: absolute;
+   bottom: 1px;
+   width: 50%;
+   font-size: 22px;
+   color: whitesmoke;
+   }
+   .more:active{
+      background-color:magenta;
+      height:35px;
+      outline: 1px solid black;
+      border: 1px solid black;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 1px;
+      font-size: 22px;
+      color: black;
+      }
+      .projects-folder div h3{
+         text-decoration: underline;
+         color:orangered;
+         font-size: 30px;
+      }
+      .projects-folder div h3:hover{
+         text-decoration: underline;
+         color:aqua;
+         font-size: 30px;
+      }
+
+      /*The contacts page of the html body*/
+      .hire{
+         background-color:black;
+         height:200px;
+         width: 100%;
+      }
+      .hire h4{
+         color:azure;
+         font-size:32px;
+         text-align: center;
+         margin-bottom: 0;
+      }
+      .hire h4:hover{
+         color:azure;
+         font-size:32px;
+         text-align: center;
+         margin-bottom: 0;
+         text-decoration: underline;
+      }
+      .hire p{
+         color: magenta;
+         font-size: 20px;
+         text-align: center;
+      }
+      .reach-out{
+         width: 200px;
+         height: 50px;
+         background-color: magenta;
+         color: darkblue;
+         border: 1px solid black;
+         margin-inline-start: 40%;
+         border-radius: 15px;
+         font-size: 17px;
+         font-weight: bold;
+      }
+      .contacting{
+         color: azure;
+      }
+      .contacting footer{
+         color: azure;
+         margin-left: 17%;
+         font-size: 22px;
+      }
+      .contacting footer p:hover{
+         color: magenta;
+         text-decoration: wavy;
+         cursor: grab;
+         text-decoration: underline;
+      }
+      .contacting footer div{
+         color: azure;
+         font-size: 17px;
+         text-align: center;
+         cursor:grab;
+      }
+      .contacting footer div:hover{
+         color: aqua;
+         font-size: 17px;
+         text-align: center;
+         cursor:grab;
+      }
+
+      /*The hr styling section*/
+      hr{
+         color: magenta;
+         background-color: magenta;
+         height: 0.5px;
+         width: 50%;
+         border: none;
+         margin: 1px auto;
+      }
+      hr:hover{
+         color: greenyellow;
+         background-color: greenyellow;
+         height: 3px;
+         width: 70%;
+         border: none;
+         margin: 1px auto;
+         transition: 1s;
+      }
+      
+   
+
